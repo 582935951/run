@@ -1,0 +1,187 @@
+a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: blueviolet;
+}
+a:hover{
+    color: #0094ff;
+}
+header{
+    width: 1000px;
+    margin: 0 auto;
+}
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+header span{
+    width:170px;
+    height:55px;
+    float: left;
+    background: url("../imgs/jd_logo.png") no-repeat ;
+    margin: 5px 0;
+}
+header b{
+    font: 28px "microsoft yahei";
+    line-height:55px;
+    margin: 10px 30px;
+    float: left;
+}
+main{
+    width:100%;
+    height: 470px;
+    background: #e61850 url("../imgs/jd_login.jpg") no-repeat;
+}
+#main_container{
+    padding: 20px;
+    width: 300px;
+    height: 320px;
+    margin-top: 40px;
+    margin-right: 100px;
+    float: right;
+    background-color: #fff;
+}
+#main_title .sm{
+    float: left;
+    color: burlywood;
+    font:18px "microsoft yahei";
+    margin-left: 30px;
+}
+#main_title .zh{
+    margin-right: 10px;
+    float: right;
+    color: red;
+    font:18px "microsoft yahei";
+    margin-right: 30px;
+}
+hr{
+    color: gainsboro;
+}
+#main_title:after{
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+#main_content{
+    width: 298px;
+    height: 28px;
+    background:#fff6d2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    border: 1px solid #ffded2;
+    font: 14px "microsoft yahei";
+    color: #8a8880;
+}
+#main_content s{
+    width: 12px;
+    height: 26px;
+    display: inline-block;
+    background: url("../imgs/pwd-icons-new.png") no-repeat -104px -20px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+#form div{
+    height: 40px;
+    margin-bottom: 10px;
+}
+#form i{
+    width: 34px;
+    height: 34px;
+    float: left;
+    display: inline-block;
+    background:url("../imgs/pwd-icons-new.png");
+    border: 1px solid #fff6d2;
+}
+#uname{
+    width: 260px;
+    height: 30px;
+}
+#form b{
+    width: 34px;
+    height: 34px;
+    float: left;
+    display: inline-block;
+    background:url("../imgs/pwd-icons-new.png") no-repeat -48px 0;
+    border: 1px solid #fff6d2;
+}
+#pwd{
+    width: 260px;
+    height: 30px;
+}
+#auto_login{
+    display: inline-block;
+    vertical-align: middle;
+}
+#main_ck label{
+    color: burlywood;
+    font:15px "microsoft yahei";
+}
+#main_ck a{
+    float: right;
+    margin-right: 10px;
+}
+#btn1{
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    font: 20px "microsoft yahei";
+    color: #fff;
+    margin-top: -20px;
+}
+#pid{
+    color: burlywood;
+    font:13px "microsoft yahei";
+    margin-top: -5px;
+}
+#main_pid a{
+    color: burlywood;
+    font:13px "microsoft yahei";
+}
+#main_pid #zc{
+    float: right;
+    margin-right: 10px;
+    color: burlywood;
+    font:16px "microsoft yahei";
+}
+#footer_dc{
+    text-align: right;
+    height: 25px;
+}
+#footer_dc a{
+    color: burlywood;
+    font:13px "microsoft yahei";
+    float: right;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+#footer_dc s{
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    background: url("../imgs/jd_img.png") no-repeat -205px 0px;
+    margin-top: 15px;
+}
+.links{
+    text-align: center;
+    font: 13px "microsoft yahei";
+}
+.links a{
+    color:#666666;
+}
+.links span{
+    color: #666;
+}
+#copy{
+    color: #666;
+    font: 13px "microsoft yahei";
+    text-align: center;
+    margin-bottom: 30px;
+}

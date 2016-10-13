@@ -1,0 +1,184 @@
+a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+a:hover{
+    color: #0094ff;
+}
+header{
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+}
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+header s{
+    width:175px;
+    height:55px;
+    float: left;
+    background: url("../imgs/jd_logo.png") no-repeat ;
+    margin-left: 70px;
+}
+header b{
+    font: 26px "microsoft yahei";
+    line-height:50px;
+    margin: 10px 30px;
+    float: left;
+    border-left: 1px solid #0094ff;
+    padding-left: 20px;
+}
+#header_div{
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+#header_div p{
+    color: #8a8880;
+    font: 15px "microsoft yahei";
+}
+hr{
+    background-color: antiquewhite;
+    height: 5px;
+    border: 0;
+}
+main{
+    width: 1200px;
+    height: 550px;
+    margin: 30px auto;
+    border-bottom: solid 1px #ffded2;
+}
+#main_left{
+    width: 500px;
+    float: left;
+    margin-left: 200px;
+    border-right: solid 1px #ffded2;
+}
+#form div{
+    width: 333px;
+    height: 40px;
+    float: left;
+    margin: 20px auto;
+}
+#form div label{
+    width: 68px;
+    height: 38px;
+    display: inline-block;
+    border: 1px solid #bdbdbd;
+    border-right: 0;
+    float: left;
+    text-align: center;
+    color: #666666;
+    font: 13px "microsoft yahei";
+    line-height: 38px;
+
+}
+#form div input[type="text"]{
+    width: 252px;
+    float: left;
+    border: 1px solid #bdbdbd;
+    border-left: 0;
+    padding-left: 10px;
+    height: 36px;
+}
+#form div input[type="password"]{
+    width: 252px;
+    float: left;
+    border: 1px solid #bdbdbd;
+    border-left: 0;
+    padding-left: 10px;
+    height: 36px;
+}
+#form div input[type="tel"]{
+    width: 252px;
+    float: left;
+    border: 1px solid #bdbdbd;
+    border-left: 0;
+    padding-left: 10px;
+    height: 36px;
+}
+#form p{
+    float: left;
+}
+#form p>span{
+    font: 13px "microsoft yahei";
+    color: darkolivegreen;
+
+}
+#form p a{
+    font: 13px "microsoft yahei";
+    color: #8a8880;
+}
+#btn{
+    width: 333px;
+    height: 40px;
+   background-color: darkgreen;
+    border: 0;
+    color: #ffffff;
+    font: 18px "microsoft yahei";
+}
+#main_right{
+    width: 400px;
+    float:right;
+}
+#main_right_ctn s{
+    width: 151px;
+    height: 195px;
+    display: inline-block;
+    background: url("../imgs/jd_img.png") no-repeat -303px -145px;
+    margin-bottom: 30px;
+
+}
+#main_right_ctn div{
+    width: 151px;
+    height: 50px;
+    font: 12px "microsoft yahei";
+}
+#main_right_ctn div i{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    margin: 10px 10px;
+    background: url("../imgs/icon.png") no-repeat 0 -50px;
+}
+#main_right_ctn div b{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    margin: 10px;
+    background: url("../imgs/icon.png") no-repeat -50px -50px;
+}
+#main_right_ctn div div{
+    border-bottom: solid 1px #ffded2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#main_right_ctn a{
+    font: 15px "micsoft yahei";
+    color: darkgoldenrod;
+}
+.links{
+    text-align: center;
+    font: 13px "microsoft yahei";
+}
+.links a{
+    color:#666666;
+}
+.links span{
+    color: #666;
+}
+#copy{
+    color: #666;
+    font: 13px "microsoft yahei";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
